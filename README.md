@@ -7,8 +7,8 @@ Task Manager
 
 ### Mind Map
 
-![Alt text](MindMap.png)
+![Alt text](docs/img/MindMap.png)
 
 ### Концептуальная карта
 
-![Alt text](ConceptMap.png)
+![Alt text](docs/img/ConceptMap.png)
