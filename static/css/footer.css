@@ -1,0 +1,29 @@
+footer {
+    background: var(--bg-color-gray);
+    color: var(--surface-color-gray);
+
+    font-family: var(--font-regular);
+}
+
+hr {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 0 0.5em 0.5em;
+}
+
+.footer hr {
+    border: 0.5px solid var(--surface-color-gray);
+
+    height: 0;
+    flex: 1;
+}
+
+.footer span {
+    padding: 0 0.75em;
+}

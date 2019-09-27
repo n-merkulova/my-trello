@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация My Task</title>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="navbar__side-block navbar__side-block_left">
+        <span>My</span>
+        <span>Task</span>
+        <span>Manager</span>
+    </div>
+    <div class="navbar__side-block navbar__side-block_right">
+        <button>Назад</button>
+    </div>
+</header>
+
+<main class="content content_centered">
+    <form class="content__cell content__cell_form">
+        <h1>Регистрация</h1>
+        <hr>
+
+        <div class="error error_purple">Пароль должен состоять минимум из 4 символов!</div>
+
+        <label class="form-field">
+            <span class="form-field__name">Логин</span>
+            <input class="form-field__input" type="text" placeholder="например, awesome_123">
+        </label>
+
+        <label class="form-field">
+            <span class="form-field__name">Электронная почта</span>
+            <input class="form-field__input" type="email" placeholder="например, awesome-user@mail.ru">
+        </label>
+
+        <label class="form-field">
+            <span class="form-field__name">Пароль</span>
+            <input class="form-field__input" type="password" placeholder="например, ••••••">
+        </label>
+
+        <button class="button button_green" type="submit">Зарегистрироваться</button>
+    </form>
+</main>
+
+<footer class="footer">
+    <hr>
+    <span>created by nmerk, 2019</span>
+    <hr>
+</footer>
+</body>
+</html>
